@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_bg">#0404d1</color>
+
+    //Bright Accent Colors
+    <color name="blue_500">#2F2FA2</color>
+
+    <color name="blue_700">#242582</color>
+
+    <color name="violet_700">#553D67</color>
+
+    <color name="violet_500">#F64C72</color>
+
+    <color name="violet_200">#99738E</color>
+</resources>

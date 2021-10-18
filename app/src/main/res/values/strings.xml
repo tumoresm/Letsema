@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Letsema</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_logout">Logout</string>
+
+    --Buyer Drawer--
+    <string name="menu_buyer_profile">User Profile</string>
+    <string name="menu_buyer_organisation">Organisation</string>
+    <string name="menu_buyer_tenders">My Tenders</string>
+    <string name="menu_tenders_drafts">Draft Tenders</string>
+    <string name="menu_tenders_history">History Tenders</string>
+
+    --Supplier Drawer--
+    <string name="menu_supplier_profile">User Profile</string>
+    <string name="menu_supplier_organisation">Organisation</string>
+    <string name="menu_supplier_tenders">My Bids</string>
+    <string name="menu_bids_drafts">Draft Bids</string>
+    <string name="menu_bids_history">History Bids</string>
+
+    --general--
+    <string name="menu_open_tenders">Open Tenders</string>
+    <string name="menu_logout">Logout</string>
+    <string name="log_in">Login</string>
+    <string name="user_full_names">Full Names</string>
+    <string name="user_profilepic">Profile Pic</string>
+</resources>
