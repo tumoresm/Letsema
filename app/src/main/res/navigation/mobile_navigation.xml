@@ -22,28 +22,41 @@
         android:name="com.example.letsema.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
     <fragment
-        android:id="@+id/draftsTenderFragment"
-        android:name="com.example.letsema.ui.drafts.DraftsTenderFragment"
-        android:label="DraftsTenderFragment" />
+        android:id="@+id/nav_buyer_drafts"
+        android:name="com.example.letsema.ui.drafts.DraftsTendersFragment"
+        android:label="@string/menu_tenders_drafts"
+        tools:layout="@layout/drafts_tenders_fragment"/>
+
     <fragment
-        android:id="@+id/historyTenderFragment"
-        android:name="com.example.letsema.ui.history.HistoryTenderFragment"
-        android:label="HistoryTenderFragment" />
-    <fragment
-        android:id="@+id/myTendersFragment"
-        android:name="com.example.letsema.ui.mytenders.MyTendersFragment"
-        android:label="MyTendersFragment" />
-    <fragment
-        android:id="@+id/openTenderFragment"
-        android:name="com.example.letsema.ui.opentenders.OpenTenderFragment"
-        android:label="OpenTenderFragment" />
-    <fragment
-        android:id="@+id/organisationFragment"
-        android:name="com.example.letsema.ui.organisation.OrganisationFragment"
-        android:label="OrganisationFragment" />
-    <fragment
-        android:id="@+id/userProfileFragment"
+        android:id="@+id/nav_buyer_profile"
         android:name="com.example.letsema.ui.profile.UserProfileFragment"
-        android:label="UserProfileFragment" />
+        android:label="@string/menu_buyer_profile"
+        tools:layout="@layout/user_profile_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_buyer_organisation"
+        android:name="com.example.letsema.ui.organisation.OrganisationFragment"
+        android:label="@string/menu_buyer_organisation"
+        tools:layout="@layout/organisation_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_open_tenders"
+        android:name="com.example.letsema.ui.opentenders.OpenTendersFragment"
+        android:label="@string/menu_open_tenders"
+        tools:layout="@layout/open_tenders_fragment"/>
+
+    <fragment
+        android:id="@id/nav_buyer_tenders"
+        android:name="com.example.letsema.ui.mytenders.MyTendersFragment"
+        android:label="@string/menu_buyer_tenders"
+        tools:layout="@layout/my_tenders_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_tenders_history"
+        android:name="com.example.letsema.ui.history.HistoryTendersFragment"
+        android:label="@string/menu_tenders_history"
+        tools:layout="@layout/history_tenders_fragment"/>
+
 </navigation>
