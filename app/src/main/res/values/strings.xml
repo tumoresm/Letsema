@@ -32,4 +32,6 @@
     <string name="log_in">Login</string>
     <string name="user_full_names">Full Names</string>
     <string name="user_profilepic">Profile Pic</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
 </resources>
